@@ -5,7 +5,7 @@ def CalcMedian(x : list) :
         i = (l - 1) // 2
         return x[i]
     else :
-        t = x[(l-1)//2] + x[l//2]
+        t = x[l//2 - 1] + x[l//2]
         t = t/2
         return t
 
