@@ -6,7 +6,7 @@ def CalcMean(x : list) :
     temp = 0.0
     for i in x :
         temp += i
-    return round(temp/N,1)
+    return round(temp/len(x),1)
 
 def CalcMode(x : list) :
     x.sort()
